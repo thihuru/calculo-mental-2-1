@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #0b011f, #1c0439); /* Degradado de rosa a crema */
+    height: 500vh;
+    color: #ffffffda;
+    
+  }
+  
+  .controls {
+    margin: 20px 0;
+  }
+  
+  .container {
+    border: 2px solid #000544;
+    padding: 50px;
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #12002a, #02003a); /* Degradado de azul claro a celeste */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #numeros {
+    font-size: 34px; /* letras grandes */
+    font-weight: bold; /* numeros mas gordos */
+    color: #f0f0f0; 
+    margin-bottom: 20px;/* espacio interior */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background: #c4c3cdff;
+    border-radius: 10px;
+
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 10px;
+    background: linear-gradient(90deg, #25003e, #3b0039); /* Degradado para la barra */
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s;
+  }
+  button.active {
+    background-color: rgba(58, 31, 146, 0.853);
+    color: white;
+  }
+
+#resultado, #serie_completa {
+  font-size: 30px;  
+  font-weight: bold;
+  margin-top: 10px;
+}
+  
